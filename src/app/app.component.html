@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<div class="pagebox" fxLayout="column" fxLayoutAlign="center">
+  <div fxLayout="row" fxLayoutAlign="center">
+    <h1>
+      <countdown [text]="text" units="Seconds"  end="2018-01-27T19:00:00Z"></countdown>
+    </h1>
+  </div>
+</div>
