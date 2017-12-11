@@ -2,6 +2,7 @@
 body {
   background-color: #25262C;
   color: white;
+  overflow: hidden;
 }
 
 .countdown {

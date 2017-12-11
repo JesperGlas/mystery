@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__(40)(false);
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-color: #25262C;\n  color: white;\n}\n\n.countdown {\n  width: 100%;\n  height: 100px;\n}\n\n  .two-dots {\n    display: none;\n  }\n\n  .measurements {\n    color: white;\n    margin-right: 5px;\n    padding: 10px;\n }\n\n .divider {\n  font-size: 30px;\n }\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nbody {\n  background-color: #25262C;\n  color: white;\n  overflow: hidden;\n}\n\n.countdown {\n  width: 100%;\n  height: 100px;\n}\n\n  .two-dots {\n    display: none;\n  }\n\n  .measurements {\n    color: white;\n    margin-right: 5px;\n    padding: 10px;\n }\n\n .divider {\n  font-size: 30px;\n }\n", ""]);
 
 // exports
 
