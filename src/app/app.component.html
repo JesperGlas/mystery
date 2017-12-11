@@ -1,7 +1,27 @@
 <div class="pagebox" fxLayout="column" fxLayoutAlign="center">
+
+  <div fxLayout="row" fxLayoutAlign="center">
+    <p>
+      <countdown [text]="empty" units="Year | Month | Weeks | Hours | Seconds"  end="2017-12-20T18:30:00Z"></countdown>
+    </p>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="center">
+    <h3>
+      <countdown [text]="empty" units="Year | Month | Weeks | Hours | Seconds"  end="2018-01-01T09:10:00Z"></countdown>
+    </h3>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="center">
+    <h2>
+      <countdown [text]="empty" units="Year | Month | Weeks | Hours | Seconds"  end="2018-01-04T18:20:00Z"></countdown>
+    </h2>
+  </div>
+
   <div fxLayout="row" fxLayoutAlign="center">
     <h1>
-      <countdown [text]="text" units="Seconds"  end="2018-01-27T19:00:00Z"></countdown>
+      <countdown [text]="empty" units="Year | Month | Weeks | Hours | Seconds"  end="2018-01-27T19:00:00Z"></countdown>
     </h1>
   </div>
+
 </div>

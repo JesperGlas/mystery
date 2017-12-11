@@ -6,14 +6,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  text:any = {
-    Year: '',
-    Month: '',
-    Weeks: "",
-    Days: "",
-    Hours: "",
-    Minutes: "",
-    Seconds: "",
+  empty:any = {
+    Year: ' ',
+    Month: ' ',
+    Weeks: " ",
+    Days: " ",
+    Hours: " ",
+    Minutes: " ",
+    Seconds: " ",
     MilliSeconds: ""
+  };
+
+  full:any = {
+    Year: 'Year ',
+    Month: 'Month ',
+    Weeks: "Week ",
+    Days: "Day ",
+    Hours: "Hour ",
+    Minutes: "Minute ",
+    Seconds: "Second ",
+    MilliSeconds: "MilliSecond"
   };
 }
