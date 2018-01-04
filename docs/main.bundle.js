@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"pagebox\" fxLayout=\"column\" fxLayoutAlign=\"center\">\n\n  <div fxLayout=\"row\" fxLayoutAlign=\"center\">\n    <iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/gHSqTgRniLo\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>\n  </div>\n\n  <div fxLayout=\"row\" fxLayoutAlign=\"center\">\n    <h2>\n      <countdown [text]=\"empty\" units=\"Month | Days | Hours | Minutes | Seconds\"  end=\"2018-01-04T18:20:00Z\"></countdown>\n    </h2>\n  </div>\n\n  <div fxLayout=\"row\" fxLayoutAlign=\"center\">\n    <h1>\n      <countdown [text]=\"full\" units=\"Month | Days | Hours | Minutes | Seconds\"  end=\"2018-01-27T19:00:00Z\"></countdown>\n    </h1>\n  </div>\n\n</div>\n"
+module.exports = "<div class=\"pagebox\" fxLayout=\"column\" fxLayoutAlign=\"center\">\n\n  <div fxLayout=\"row\" fxLayoutAlign=\"center\">\n    <iframe width=\"854\" height=\"480\" src=\"https://www.youtube.com/embed/gHSqTgRniLo\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>\n  </div>\n\n  <div fxLayout=\"row\" fxLayoutAlign=\"center\">\n    <h1>\n      <countdown [text]=\"full\" units=\"Month | Days | Hours | Minutes | Seconds\"  end=\"2018-01-27T19:00:00Z\"></countdown>\n    </h1>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
