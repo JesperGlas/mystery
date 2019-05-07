@@ -1,3 +1,6 @@
+# Description
+A project to create a virtual "escape room" scenario for some friends. The first puzzle is working but I've learnt a lot since starting the project and might start from scratch before using it.
+
 # Mystery
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
